@@ -6,7 +6,8 @@ Template OpenCMISS example
 
 This repository is intended to serve as a guide for setting up an OpenCMISS example.  The *master* branch is an over annotated example structure for a bare bones example structure try the *barebones* branch of this repository.
 
-.. contents::
+.. contents:: **Contents**
+   :backlinks:
 
 Directory structure
 ===================
