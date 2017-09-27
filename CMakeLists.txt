@@ -2,7 +2,7 @@
 # at least version 3.4 of CMake so that will also constrian the 
 # minimum version we are able to set here.  We can't continue if this
 # is not the case so we may as well stop right here.
-cmake_mininum_version(VERSION 3.4 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.4 FATAL_ERROR)
 
 # Declare the project name and version number and specify the languages
 # used.  We must specify the *C* language irrespective of whether we use 
