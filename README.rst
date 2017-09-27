@@ -4,19 +4,19 @@
 Template OpenCMISS example
 ==========================
 
-This repository is intended to serve as a guide for setting up an OpenCMISS example.  The *master* branch is an over annotated example structure for a standard example for a bare bones example structure try the *barebones* branch of this repository.  Other branches that may be of interest are the *input_arguments* branch, *input_files* branch, *stdout* branch, and the *python* branch.
+This repository is intended to serve as a guide for setting up an OpenCMISS example.  The `master <https://github.com/OpenCMISS-Examples/template_example/tree/master>`_ branch is an over annotated example structure for a standard example for a bare bones example structure try the `barebones <https://github.com/OpenCMISS-Examples/template_example/tree/barebones>`_ branch of this repository.  Other branches that may be of interest are the `input_arguments <https://github.com/OpenCMISS-Examples/template_example/tree/input_arguments>`_ branch, `input_files <https://github.com/OpenCMISS-Examples/template_example/tree/input_files>`_ branch, `stdout <https://github.com/OpenCMISS-Examples/template_example/tree/stdout>`_ branch, and the `python <https://github.com/OpenCMISS-Examples/template_example/tree/python>`_ branch.
 
 .. contents:: **Contents**
    :backlinks: entry
 
 **Branches**
 
-* master
-* barebones
-* input_arguments
-* input_files
-* stdout
-* python
+* `master <https://github.com/OpenCMISS-Examples/template_example/tree/master>`_
+* `barebones <https://github.com/OpenCMISS-Examples/template_example/tree/barebones>`_
+* `input_arguments <https://github.com/OpenCMISS-Examples/template_example/tree/input_arguments>`_
+* `input_files <https://github.com/OpenCMISS-Examples/template_example/tree/input_files>`_
+* `stdout <https://github.com/OpenCMISS-Examples/template_example/tree/stdout>`_
+* `python <https://github.com/OpenCMISS-Examples/template_example/tree/python>`_
 
 Directory structure
 ===================
