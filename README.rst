@@ -11,12 +11,12 @@ This repository is intended to serve as a guide for setting up an OpenCMISS exam
 
 **Branches**
 
-  * master
-  * barebones
-  * input_arguments
-  * input_files
-  * stdout
-  * python
+* master
+* barebones
+* input_arguments
+* input_files
+* stdout
+* python
 
 Directory structure
 ===================
