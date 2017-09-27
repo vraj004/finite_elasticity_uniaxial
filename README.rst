@@ -4,10 +4,12 @@
 Template OpenCMISS example
 ==========================
 
-This repository is intended to serve as a guide for setting up an OpenCMISS example.  The `master <https://github.com/OpenCMISS-Examples/template_example/tree/master>`_ branch is an over annotated example structure for a standard example for a bare bones example structure try the `barebones <https://github.com/OpenCMISS-Examples/template_example/tree/barebones>`_ branch of this repository.  Other branches that may be of interest are the `input_arguments <https://github.com/OpenCMISS-Examples/template_example/tree/input_arguments>`_ branch, `input_files <https://github.com/OpenCMISS-Examples/template_example/tree/input_files>`_ branch, `stdout <https://github.com/OpenCMISS-Examples/template_example/tree/stdout>`_ branch, and the `python <https://github.com/OpenCMISS-Examples/template_example/tree/python>`_ branch.
+This repository is intended to serve as a guide for setting up an OpenCMISS example.  Consider looking at the branches in this repository for guidance on how different aspects not shown here can be added to an example.  It is expected that the `barebones <https://github.com/OpenCMISS-Examples/template_example/tree/barebones>`_ branch will provide the best starting point for new examples.
 
 .. contents:: **Contents**
    :backlinks: entry
+
+The `master <https://github.com/OpenCMISS-Examples/template_example/tree/master>`_ branch is an over annotated example structure for a standard example for a bare bones example structure try the `barebones <https://github.com/OpenCMISS-Examples/template_example/tree/barebones>`_ branch of this repository.  Other branches that may be of interest are the `input_arguments <https://github.com/OpenCMISS-Examples/template_example/tree/input_arguments>`_ branch, `input_files <https://github.com/OpenCMISS-Examples/template_example/tree/input_files>`_ branch, `stdout <https://github.com/OpenCMISS-Examples/template_example/tree/stdout>`_ branch, and the `python <https://github.com/OpenCMISS-Examples/template_example/tree/python>`_ branch.
 
 **Branches**
 
@@ -21,7 +23,7 @@ This repository is intended to serve as a guide for setting up an OpenCMISS exam
 Directory structure
 ===================
 
-The basic directory structure for an example is to have two child directories *docs* and *src*.  The *docs* directory contains the documentation on the example and the *src* directory contains the source code required to build the example.  The *src* directory can be further split into language subdirectories; *python*, *c*, *fortran*.  These are only required if that language is implemented by the example.
+The basic directory structure for an example is to have two child directories *docs* and *src*.  The *docs* directory contains the documentation on the example and the *src* directory contains the source code required to build the example.  The *src* directory can be further split into language subdirectories; *python*, *c*, *cxx*, *fortran*.  These are only required if that language is implemented by the example.
 
 Basic example directory structure::
 
@@ -29,6 +31,7 @@ Basic example directory structure::
     +-- docs
     +-- src
         +-- c
+        +-- cxx
         +-- fortran
         +-- python
 
