@@ -4,12 +4,12 @@
 Template OpenCMISS example
 ==========================
 
-This repository is intended to serve as a guide for setting up an OpenCMISS example.  Consider looking at the branches in this repository for guidance on how different aspects not shown here can be added to an example.  It is expected that the `barebones <https://github.com/OpenCMISS-Examples/template_example/tree/barebones>`_ branch will provide the best starting point for new examples.
+This repository is intended to serve as a guide for setting up an OpenCMISS example.  Consider looking at the branches in this repository for guidance on how different aspects not shown here can be added to an example.  It is expected that the `barebones <https://github.com/OpenCMISS-Examples/template_example/tree/barebones>`_ branch will provide the best starting point for new examples.  One of the first tasks you should do is to replace the content in this README file with information on your exmaple.
 
 .. contents:: **Contents**
    :backlinks: entry
 
-The `master <https://github.com/OpenCMISS-Examples/template_example/tree/master>`_ branch is an over annotated example structure for a standard example for a bare bones example structure try the `barebones <https://github.com/OpenCMISS-Examples/template_example/tree/barebones>`_ branch of this repository.  Other branches that may be of interest are the `input_arguments <https://github.com/OpenCMISS-Examples/template_example/tree/input_arguments>`_ branch, `input_files <https://github.com/OpenCMISS-Examples/template_example/tree/input_files>`_ branch, `stdout <https://github.com/OpenCMISS-Examples/template_example/tree/stdout>`_ branch, and the `python <https://github.com/OpenCMISS-Examples/template_example/tree/python>`_ branch.
+The `master <https://github.com/OpenCMISS-Examples/template_example/tree/master>`_ branch is an over annotated example structure of a standard example, for a bare bones example structure try the `barebones <https://github.com/OpenCMISS-Examples/template_example/tree/barebones>`_ branch of this repository.  Other branches that may be of interest are the `input_arguments <https://github.com/OpenCMISS-Examples/template_example/tree/input_arguments>`_ branch, `input_files <https://github.com/OpenCMISS-Examples/template_example/tree/input_files>`_ branch, `stdout <https://github.com/OpenCMISS-Examples/template_example/tree/stdout>`_ branch, and the `python <https://github.com/OpenCMISS-Examples/template_example/tree/python>`_ branch.
 
 **Branches**
 
