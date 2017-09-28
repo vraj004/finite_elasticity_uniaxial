@@ -125,4 +125,4 @@ The *expected_results* directory should be made a sub-directory of the language.
 Documentation
 =============
 
-The documentation should be written in re-structured text a basic Sphinx configuration file is provided in the *docs* directory.
+The documentation should be written in re-structured text a basic Sphinx configuration file is provided in the *docs* directory.  The documentation in the *docs* directory (which can be built with Sphinx) should be about the example and explain what the software does and what inputs are required (if any) to get the expected results and output from the application.  The README.rst file is documentation on how to use the example, use the README.template.rst as a starting point for putting together a README.rst for your own examples.
