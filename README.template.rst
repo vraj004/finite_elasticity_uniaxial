@@ -12,7 +12,7 @@ Building the example
 If this not a pure Python example place the instructions here on how to configure and build with CMake::
 
   git clone https://github.com/you/your-example.git # maybe your example is somewhere else like: OpenCMISS-Examples
-  mkdir build
+  mkdir your-example-build
   cmake -DOpenCMISSLibs_DIR=/path/to/opencmisslib/install ../your-example
   make  # cmake --build . will also work here and is much more platform agnostic.
 
@@ -21,7 +21,7 @@ Running the example
 
 Explain how the example is run::
 
-  cd build
+  cd your-example-build
   ./src/fortran/XXXXXXXX
 
 or maybe it is a Python only example::
@@ -30,6 +30,11 @@ or maybe it is a Python only example::
   python src/python/XXXXXXXX.py
 
 where the XY in the path are the Python major and minor versions respectively.
+
+Verifying the example
+=====================
+
+Explain here how to compare the expected output with the actual output, and where the expected output can be found.
 
 Prerequisites
 =============
