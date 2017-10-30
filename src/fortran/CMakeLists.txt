@@ -15,5 +15,4 @@ add_executable(XXXXXXXX ZZZZZZZZ.F90)
 # MPI should also be linked into the application.  Once this issue is resolved we will no longer
 # be required to add this as a link library.  This only applies to examples making use of Iron, 
 # if the example is only using the Zinc library then MPI is not required at all.
-target_link_libraries(XXXXXXXX PUBLIC opencmisslibs mpi)
-
+target_link_libraries(XXXXXXXX PUBLIC opencmisslibs)
