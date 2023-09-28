@@ -1,0 +1,209 @@
+Determining if the OMPI_MAJOR_VERSION exist failed with the following output:
+Change Dir: /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3e27/fast && /usr/bin/make -f CMakeFiles/cmTC_f3e27.dir/build.make CMakeFiles/cmTC_f3e27.dir/build
+make[1]: Entering directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3e27.dir/CheckSymbolExists.c.o
+/opt/intel/oneapi/compiler/2023.1.0/linux/bin/intel64/icc  -I/opt/intel/oneapi/mpi/2021.9.0/include   -o CMakeFiles/cmTC_f3e27.dir/CheckSymbolExists.c.o   -c /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c(8): error: identifier "OMPI_MAJOR_VERSION" is undefined
+    return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+                    ^
+
+compilation aborted for /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c (code 2)
+make[1]: *** [CMakeFiles/cmTC_f3e27.dir/build.make:66: CMakeFiles/cmTC_f3e27.dir/CheckSymbolExists.c.o] Error 2
+make[1]: Leaving directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f3e27/fast] Error 2
+
+
+File /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <mpi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef OMPI_MAJOR_VERSION
+  return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the OMPI_MAJOR_VERSION exist failed with the following output:
+Change Dir: /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48bab/fast && /usr/bin/make -f CMakeFiles/cmTC_48bab.dir/build.make CMakeFiles/cmTC_48bab.dir/build
+make[1]: Entering directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48bab.dir/CheckSymbolExists.c.o
+/opt/intel/oneapi/compiler/2023.1.0/linux/bin/intel64/icc  -I/opt/intel/oneapi/mpi/2021.9.0/include   -o CMakeFiles/cmTC_48bab.dir/CheckSymbolExists.c.o   -c /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c(8): error: identifier "OMPI_MAJOR_VERSION" is undefined
+    return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+                    ^
+
+compilation aborted for /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c (code 2)
+make[1]: *** [CMakeFiles/cmTC_48bab.dir/build.make:66: CMakeFiles/cmTC_48bab.dir/CheckSymbolExists.c.o] Error 2
+make[1]: Leaving directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_48bab/fast] Error 2
+
+
+File /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <mpi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef OMPI_MAJOR_VERSION
+  return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the OMPI_MAJOR_VERSION exist failed with the following output:
+Change Dir: /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1813a/fast && /usr/bin/make -f CMakeFiles/cmTC_1813a.dir/build.make CMakeFiles/cmTC_1813a.dir/build
+make[1]: Entering directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1813a.dir/CheckSymbolExists.c.o
+/opt/intel/oneapi/compiler/2023.1.0/linux/bin/intel64/icc  -I/opt/intel/oneapi/mpi/2021.9.0/include   -o CMakeFiles/cmTC_1813a.dir/CheckSymbolExists.c.o   -c /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c(8): error: identifier "OMPI_MAJOR_VERSION" is undefined
+    return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+                    ^
+
+compilation aborted for /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c (code 2)
+make[1]: *** [CMakeFiles/cmTC_1813a.dir/build.make:66: CMakeFiles/cmTC_1813a.dir/CheckSymbolExists.c.o] Error 2
+make[1]: Leaving directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1813a/fast] Error 2
+
+
+File /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <mpi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef OMPI_MAJOR_VERSION
+  return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test _HAVE_AVX_FLAG failed with the following output:
+Change Dir: /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a805e/fast && /usr/bin/make -f CMakeFiles/cmTC_a805e.dir/build.make CMakeFiles/cmTC_a805e.dir/build
+make[1]: Entering directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a805e.dir/src.c.o
+/opt/intel/oneapi/compiler/2023.1.0/linux/bin/intel64/icc   -D_HAVE_AVX_FLAG   AVX -o CMakeFiles/cmTC_a805e.dir/src.c.o   -c /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/src.c
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'AVX'
+make[1]: *** [CMakeFiles/cmTC_a805e.dir/build.make:66: CMakeFiles/cmTC_a805e.dir/src.c.o] Error 1
+make[1]: *** Deleting file 'CMakeFiles/cmTC_a805e.dir/src.c.o'
+make[1]: Leaving directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a805e/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the OMPI_MAJOR_VERSION exist failed with the following output:
+Change Dir: /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92193/fast && /usr/bin/make -f CMakeFiles/cmTC_92193.dir/build.make CMakeFiles/cmTC_92193.dir/build
+make[1]: Entering directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92193.dir/CheckSymbolExists.c.o
+/opt/intel/oneapi/compiler/2023.1.0/linux/bin/intel64/icc  -I/opt/intel/oneapi/mpi/2021.9.0/include   -o CMakeFiles/cmTC_92193.dir/CheckSymbolExists.c.o   -c /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c(8): error: identifier "OMPI_MAJOR_VERSION" is undefined
+    return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+                    ^
+
+compilation aborted for /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c (code 2)
+make[1]: *** [CMakeFiles/cmTC_92193.dir/build.make:66: CMakeFiles/cmTC_92193.dir/CheckSymbolExists.c.o] Error 2
+make[1]: Leaving directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_92193/fast] Error 2
+
+
+File /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <mpi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef OMPI_MAJOR_VERSION
+  return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the OMPI_MAJOR_VERSION exist failed with the following output:
+Change Dir: /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c42c4/fast && /usr/bin/make -f CMakeFiles/cmTC_c42c4.dir/build.make CMakeFiles/cmTC_c42c4.dir/build
+make[1]: Entering directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c42c4.dir/CheckSymbolExists.c.o
+/opt/intel/oneapi/compiler/2023.1.0/linux/bin/intel64/icc  -I/opt/intel/oneapi/mpi/2021.9.0/include   -o CMakeFiles/cmTC_c42c4.dir/CheckSymbolExists.c.o   -c /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c(8): error: identifier "OMPI_MAJOR_VERSION" is undefined
+    return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+                    ^
+
+compilation aborted for /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c (code 2)
+make[1]: *** [CMakeFiles/cmTC_c42c4.dir/build.make:66: CMakeFiles/cmTC_c42c4.dir/CheckSymbolExists.c.o] Error 2
+make[1]: Leaving directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c42c4/fast] Error 2
+
+
+File /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <mpi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef OMPI_MAJOR_VERSION
+  return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the OMPI_MAJOR_VERSION exist failed with the following output:
+Change Dir: /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b23a/fast && /usr/bin/make -f CMakeFiles/cmTC_4b23a.dir/build.make CMakeFiles/cmTC_4b23a.dir/build
+make[1]: Entering directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b23a.dir/CheckSymbolExists.c.o
+/opt/intel/oneapi/compiler/2023.1.0/linux/bin/intel64/icc  -I/opt/intel/oneapi/mpi/2021.9.0/include   -o CMakeFiles/cmTC_4b23a.dir/CheckSymbolExists.c.o   -c /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c(8): error: identifier "OMPI_MAJOR_VERSION" is undefined
+    return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+                    ^
+
+compilation aborted for /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c (code 2)
+make[1]: *** [CMakeFiles/cmTC_4b23a.dir/build.make:66: CMakeFiles/cmTC_4b23a.dir/CheckSymbolExists.c.o] Error 2
+make[1]: Leaving directory '/home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4b23a/fast] Error 2
+
+
+File /home/unimelb.edu.au/vrajagopal/applications/opencmiss-examples/finite_elasticity_uniaxial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <mpi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef OMPI_MAJOR_VERSION
+  return ((int*)(&OMPI_MAJOR_VERSION))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
