@@ -1,7 +1,7 @@
 
 
 ==========================
-Template OpenCMISS example
+OpenCMISS example of uniaxial extension of a unit cube
 ==========================
 
 This repository is intended to serve as a guide for setting up an OpenCMISS example.  Consider looking at the branches in this repository for guidance on how different aspects that are not shown in this branch can be added to an example.  It is expected that the `barebones <https://github.com/OpenCMISS-Examples/template_example/tree/barebones>`_ branch will provide the best starting point for new examples.  One of the first tasks you should do is to replace the content in this README file with information on your example.
